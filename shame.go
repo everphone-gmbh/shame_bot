@@ -77,7 +77,7 @@ func main() {
 			if err != nil {
 				log.Fatal(err)
 			}
-			if response.StatusCode != 201 {
+			if response.StatusCode != http.StatusCreated {
 				log.Fatal("failed to comment on a shameful PR, check the provided GITHUB_TOKEN")
 			}
 		}
