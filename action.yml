@@ -1,0 +1,8 @@
+name: 'Shame Bot'
+description: 'A Github action that shames PRs that are open longer than a week'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'archive'
+  color: 'blue'
