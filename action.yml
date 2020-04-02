@@ -1,4 +1,4 @@
-name: 'Shame Bot'
+name: 'Shame Old PRs'
 description: 'A Github action that shames PRs that are open longer than a week'
 runs:
   using: 'docker'
